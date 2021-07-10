@@ -1,0 +1,25 @@
+# Import Libraries
+!pip install textblob  
+from textblob  import TextBlob  // Textblob is the library that allows us to access NLP related packages.
+import sys // used to manipulate the python environment 
+!pip install tweepy // library used to access the Twitter API and do functions related to it.  
+import tweepy 
+import matplotlib.pyplot as plt      // For plotting purposes
+import pandas as pd   // Basic Python functions
+import numpy as np  // working around numbers and functions. 
+import nltk    // Natural Language ToolKit, contains inbuilt sentiment analysis model that we can use to our advantage. 
+!pip install pycountry
+import pycountry
+import re
+import string  
+!pip install wordcloud    //  Used for making word clouds and doing pre-processing
+from wordcloud import WordCloud, STOPWORDS // Stop words help in containing the file necessary to remove certain words from texts. 
+from PIL import Image 
+from nltk.sentiment.vader import SentimentIntensityAnalyzer // used for analyzing and giving the scores accordingly. 
+!pip install langdetect
+from langdetect import detect
+import nltk
+nltk.downloader.download('vader_lexicon')  // For Lexicon purposes
+from nltk.stem import SnowballStemmer // Stemming process in pre-processing. 
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from sklearn.feature_extraction.text import CountVectorizer
